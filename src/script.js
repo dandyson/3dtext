@@ -54,7 +54,7 @@ fontLoader.load(
 
         const donutGeometry = new THREE.TorusBufferGeometry(0.3, 0.2, 20, 45)
 
-        for (let i = 0; i < 100; i++) 
+        for (let i = 0; i < 600; i++) 
         {
             const donut = new THREE.Mesh(donutGeometry, material)
 
